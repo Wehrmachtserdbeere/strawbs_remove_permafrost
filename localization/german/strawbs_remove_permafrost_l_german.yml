@@ -1,0 +1,22 @@
+﻿l_german:
+  strawb_remove_permafrost: "Permafrost entfernen"
+  strawb_remove_permafrost_desc: "Wir können diese eingefrohrene Hölle nicht länger aushalten. Wir werden alles was wir müssen ausgeben, um dieses Land grün zu machen!"
+  strawb_remove_permafrost_selection_tooltip: "Entferne den Permafrost von einer Grafschaft."
+  strawb_remove_permafrost_confirm: "Beginn die Landestransformierung!"
+
+  strawb_remove_permafrost_toast: "Permafrost aus einer Grafschaft entfernt!"
+  strawb_remove_permafrost_toast_desc: "Durch das benutzen fortgeschrittener und revolutionärer Techniken und Technologien, haven wir es geschafft den Permafrost aus [text_title.GetName] zu entfernen!"
+
+  strawb_removing_permafrost: "Permafrost wird entfernt"
+  strawb_removing_permafrost_desc: "Das Entfernen des Permafrostes aus dieser Grafschaft benötigt unglaublich viel Mannskraft, Gold, und Mühe. Dafür wird unsere Zukunft hier jedoch heller."
+
+  strawb_remove_all_permafrost: "Jeden Permafrost entfernen"
+  strawb_remove_all_permafrost_desc: "Durch das benutzen von jüdisch-kabbalistischer schwarzen Magie können wir den Permafrost der ganzen Welt entfernen!"
+  strawb_remove_all_permafrost_selection_tooltip: "Den Permafrost der ganzen Welt entfernen."
+  strawb_remove_all_permafrost_confirm: "Beginnt das gottlose Ritual!"
+
+  strawb_add_permafrost: "Permafrost herbeibringen"
+  strawb_add_permafrost_desc: "Mithilfe taktisch platzierter Rituale und Rabbiner können wir das Wetter manipulieren, um jede beliebige Grafschaft in eine Permafrostlandschaft zu verwandeln, wobei alle anderen Merkmale des Landes erhalten bleiben."
+  strawb_add_permafrost_selection_tooltip: "Permafrost einer Grafschaft zufügen."
+  strawb_add_permafrost_toast: "Permafrost wurde [text_title.GetName] zugefügt"
+  strawb_add_permafrost_toast_desc: "Durch die Anwendung verschiedener Rituale wurde [text_title.GetName] vom Permafrost befallen."

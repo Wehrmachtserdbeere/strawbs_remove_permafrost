@@ -1,0 +1,10 @@
+﻿strawb_removing_permafrost = {
+	icon = county_modifier_development_mixed
+	monthly_county_control_growth_add = -0.1
+	county_fertility_growth_mult = medium_county_fertility_growth_gain
+	development_growth_factor = medium_development_growth_gain
+	travel_safety_mult = 0.1
+	levy_size = -0.95
+	tax_mult = -0.95
+	build_speed = -0.5
+}

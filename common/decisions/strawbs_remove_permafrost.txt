@@ -1,0 +1,430 @@
+﻿#
+# TODO: Add "max 1 if count, max 2 if duke, max 4 if king, max 8 if emperor, max 16 if hegemon"
+# TODO: Add "(4/8/16) immediate, random permafrost removal" decision for mass-scale quick-defrosting
+#
+
+strawb_remove_permafrost = {
+	ai_check_interval = 1
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
+
+	desc = strawb_remove_permafrost_desc
+	selection_tooltip = strawb_remove_permafrost_selection_tooltip
+
+	is_shown = {
+		is_landed = yes
+		primary_title.tier > tier_barony
+		any_realm_county = {
+			OR = {
+				has_county_modifier = mpo_siberian_permafrost_modifier
+				has_county_modifier = mpo_siberian_permafrost_modifier_bad
+			}
+		}
+	}
+
+	is_valid = {
+		root.culture = {
+			OR = {
+				AND = {
+					has_innovation = innovation_crop_rotation
+					OR = {
+						has_innovation = innovation_development_01
+						has_innovation = innovation_city_planning
+					}
+					OR = {
+						has_innovation = innovation_ledger
+						has_innovation = innovation_motte
+					}
+					
+					
+				}
+				has_cultural_era_or_later = culture_era_high_medieval
+			}
+		}
+		OR = {
+			AND = {
+				# County
+				highest_held_title_tier = tier_county
+				any_realm_county = {
+					count = 0
+					has_county_modifier = strawb_removing_permafrost
+				}
+			}
+			AND = {
+				# Duchy
+				highest_held_title_tier = tier_duchy
+				any_realm_county = {
+					count < 2
+					has_county_modifier = strawb_removing_permafrost
+				}
+			}
+			AND = {
+				# Kingdom
+				highest_held_title_tier = tier_kingdom
+				any_realm_county = {
+					count < 4
+					has_county_modifier = strawb_removing_permafrost
+				}
+			}
+			AND = {
+				# Empire
+				highest_held_title_tier = tier_empire
+				any_realm_county = {
+					count < 8
+					has_county_modifier = strawb_removing_permafrost
+				}
+			}
+			AND = {
+				# Hegemony
+				highest_held_title_tier = tier_hegemony
+				any_realm_county = {
+					count < 16
+					has_county_modifier = strawb_removing_permafrost
+				}
+			}
+		}
+		
+	}
+
+	is_valid_showing_failures_only = {
+		primary_title.tier > tier_barony
+	}
+
+	widget = {
+        controller = create_holy_order
+        barony_valid = {
+            trigger_if = {
+                limit = {
+					AND = {
+						exists = this
+						is_county_capital = yes
+					}
+				}
+				is_county_capital = yes
+				this.county = {
+					OR = {
+						has_county_modifier = mpo_siberian_permafrost_modifier
+						has_county_modifier = mpo_siberian_permafrost_modifier_bad
+					}
+				}
+            }
+        }
+    }
+
+	cost = {
+		gold = {
+			value = 50
+			if = {
+				limit = {
+					is_ai = yes # We hate clankers here.
+				}
+				multiply = 4 # Actually, it's just so it's actually difficult for the AI to remove it, so it's not just a "disable it lol" type of deal.
+			}
+			if = {
+				limit = {
+					has_game_rule = remove_permafrost_gold_cost_0_75
+				}
+				multiply = 0.75
+			}
+			else_if = {
+				limit = {
+					has_game_rule = remove_permafrost_gold_cost_0_50
+				}
+				multiply = 0.5
+			}
+			else_if = {
+				limit = {
+					has_game_rule = remove_permafrost_gold_cost_0_00
+				}
+				multiply = 0
+			}
+			else_if = {
+				limit = {
+					has_game_rule = remove_permafrost_gold_cost_2_00
+				}
+				multiply = 2
+			}
+			if = {
+				limit = {
+					debug_only = yes
+				}
+				multiply = 0
+			}
+		}
+		prestige = {
+			value = 250
+			if = {
+				limit = {
+					is_ai = yes # We hate clankers here.
+				}
+				multiply = 4 # Actually, it's just so it's actually difficult for the AI to remove it, so it's not just a "disable it lol" type of deal.
+			}
+			if = {
+				limit = {
+					has_game_rule = remove_permafrost_prestige_cost_0_75
+				}
+				multiply = 0.75
+			}
+			else_if = {
+				limit = {
+					has_game_rule = remove_permafrost_prestige_cost_0_50
+				}
+				multiply = 0.5
+			}
+			else_if = {
+				limit = {
+					has_game_rule = remove_permafrost_prestige_cost_0_00
+				}
+				multiply = 0
+			}
+			else_if = {
+				limit = {
+					has_game_rule = remove_permafrost_prestige_cost_2_00
+				}
+				multiply = 2
+			}
+			if = {
+				limit = {
+					debug_only = yes
+				}
+				multiply = 0
+			}
+		}
+		herd = {
+			value = 500
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				multiply = 4
+			}
+			if = {
+				limit = {
+					has_game_rule = remove_permafrost_herd_cost_0_75
+				}
+				multiply = 0.75
+			}
+			else_if = {
+				limit = {
+					has_game_rule = remove_permafrost_herd_cost_0_50
+				}
+				multiply = 0.5
+			}
+			else_if = {
+				limit = {
+					has_game_rule = remove_permafrost_herd_cost_0_00
+				}
+				multiply = 0
+			}
+			else_if = {
+				limit = {
+					has_game_rule = remove_permafrost_herd_cost_2_00
+				}
+				multiply = 2
+			}
+			if = {
+				limit = {
+					NOT = {
+						government_has_flag = government_is_nomadic
+					}
+				}
+				multiply = 0
+			}
+			if = {
+				limit = {
+					debug_only = yes
+				}
+				multiply = 0
+			}
+		}
+	}
+
+	effect = {
+		scope:barony.county = {
+			save_scope_as = text_title
+			if = {
+				limit = {
+					has_county_modifier = mpo_siberian_permafrost_modifier
+				}
+				set_local_variable = strawb_removed_normal_permafrost
+				remove_county_modifier = mpo_siberian_permafrost_modifier
+			}
+			else_if = {
+				limit = {
+					has_county_modifier = mpo_siberian_permafrost_modifier_bad
+				}
+				remove_county_modifier = mpo_siberian_permafrost_modifier_bad
+			}
+			add_county_modifier = {
+				modifier = strawb_removing_permafrost
+				years = 2
+			}
+		}
+		hidden_effect = {
+			send_interface_toast = {
+				type = event_toast_effect_good
+				title = strawb_remove_permafrost_toast
+
+				show_as_tooltip = {
+					custom_tooltip = strawb_remove_permafrost_toast_desc
+
+					if = {
+						limit = {
+							has_local_variable = strawb_removed_normal_permafrost
+						}
+						scope:text_title = {
+							remove_county_modifier = mpo_siberian_permafrost_modifier
+						}
+					}
+					else = {
+						scope:text_title = {
+							remove_county_modifier = mpo_siberian_permafrost_modifier_bad
+						}
+					}
+				}
+			}	
+		}
+	}
+}
+
+strawb_remove_all_permafrost = {
+	ai_check_interval = 0
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
+
+	desc = strawb_remove_all_permafrost_desc
+	selection_tooltip = strawb_remove_all_permafrost_selection_tooltip
+
+	is_shown = {
+		is_ai = no
+		has_game_rule = allow_remove_all_permafrost_decision_yes
+		any_county = {
+			OR = {
+				has_county_modifier = mpo_siberian_permafrost_modifier
+				has_county_modifier = mpo_siberian_permafrost_modifier_bad
+			}
+		}
+	}
+
+	effect = {
+		every_county = {
+			limit = {
+				OR = {
+					has_county_modifier = mpo_siberian_permafrost_modifier
+					has_county_modifier = mpo_siberian_permafrost_modifier_bad
+				}
+			}
+			if = {
+				limit = {
+					has_county_modifier = mpo_siberian_permafrost_modifier
+				}
+				remove_county_modifier = mpo_siberian_permafrost_modifier
+			}
+			else = {
+				remove_county_modifier = mpo_siberian_permafrost_modifier_bad
+			}
+		}
+	}
+}
+
+strawb_add_permafrost = {
+	ai_check_interval = 0
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+
+	decision_group_type = major
+
+	desc = strawb_add_permafrost_desc
+	selection_tooltip = strawb_add_permafrost_selection_tooltip
+
+	is_shown = {
+		is_ai = no
+		primary_title.tier > tier_barony
+		has_game_rule = enable_permafrost_adder_yes
+		any_realm_county = {
+			NOT = {
+				has_county_modifier = mpo_siberian_permafrost_modifier
+				has_county_modifier = mpo_siberian_permafrost_modifier_bad
+			}
+		}
+	}
+
+	# Can't figure out how to make it only target the capital county >:(
+	widget = {
+        controller = create_holy_order
+        barony_valid = {
+            trigger_if = {
+                limit = {
+					exists = this
+				}
+				this.county = {
+					NOT = {
+						has_county_modifier = mpo_siberian_permafrost_modifier
+						has_county_modifier = mpo_siberian_permafrost_modifier_bad
+					}
+				}
+            }
+        }
+    }
+
+	cost = {
+		prestige = {
+			value = 0
+			add = scope:barony.county.development_level
+			multiply = 100
+			add = 50
+		}
+	}
+
+	effect = {
+		scope:barony.county = {
+			random_list = {
+				75 = {
+					add_county_modifier = {
+						modifier = mpo_siberian_permafrost_modifier
+					}
+					set_local_variable = {
+						name = strawb_normal_permafrost
+					}
+				}
+				25 = {
+					add_county_modifier = {
+						modifier = mpo_siberian_permafrost_modifier_bad
+					}
+				}
+			}
+			save_scope_as = text_title
+		}
+		hidden_effect = {
+			send_interface_toast = {
+				type = event_toast_effect_bad
+				title = strawb_add_permafrost_toast
+				show_as_tooltip = {
+					custom_tooltip = strawb_add_permafrost_toast_desc
+					if = {
+						limit = {
+							has_local_variable = strawb_normal_permafrost
+						}
+						scope:text_title = {
+							add_county_modifier = {
+								modifier = mpo_siberian_permafrost_modifier
+							}
+						}
+					}
+					else = {
+						scope:text_title = {
+							add_county_modifier = {
+								modifier = mpo_siberian_permafrost_modifier_bad
+							}
+						}
+					}
+				}
+			}	
+		}
+	}
+}

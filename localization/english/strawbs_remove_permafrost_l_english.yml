@@ -1,0 +1,22 @@
+﻿l_english:
+  strawb_remove_permafrost: "Remove Permafrost"
+  strawb_remove_permafrost_desc: "We cannot handle this frozen hellscape for any longer. We will spend whatever we need to turn this land green!"
+  strawb_remove_permafrost_selection_tooltip: "Remove the Permafrost from a county."
+  strawb_remove_permafrost_confirm: "Begin the terraforming."
+
+  strawb_remove_permafrost_toast: "Removed permafrost from a county!"
+  strawb_remove_permafrost_toast_desc: "Using advanced and revolutionary techniques and inventions, we have removed the permafrost from [text_title.GetName]!"
+
+  strawb_removing_permafrost: "Removing Permafrost"
+  strawb_removing_permafrost_desc: "Removing the permafrost from this county takes a very considerable amount of money, manpower, and dedication. But for this, our future will be brighter."
+
+  strawb_remove_all_permafrost: "Remove all Permafrost"
+  strawb_remove_all_permafrost_desc: "Using jewish kabbalah black magic, we can remove all permafrost from the world!"
+  strawb_remove_all_permafrost_selection_tooltip: "Remove all permafrost from the world."
+  strawb_remove_all_permafrost_confirm: "Commence the unholy ritual!"
+
+  strawb_add_permafrost: "Add Permafrost"
+  strawb_add_permafrost_desc: "Using some tactically stationed rituals and rabbis, we can manipulate the weather to turn any county into a permafrosted landscape, while still retaining all the other various features."
+  strawb_add_permafrost_selection_tooltip: "Add permafrost to a county."
+  strawb_add_permafrost_toast: "Added Permafrost to [text_title.GetName]"
+  strawb_add_permafrost_toast_desc: "Using various rituals, [text_title.GetName] has been affected by permafrost."

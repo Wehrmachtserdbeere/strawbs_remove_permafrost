@@ -1,0 +1,71 @@
+remove_permafrost_gold_cost = {
+
+	categories = {
+		tweaks
+	}
+
+	default = remove_permafrost_gold_cost_1_00
+
+	remove_permafrost_gold_cost_1_00 = { }
+	remove_permafrost_gold_cost_0_75 = { }
+	remove_permafrost_gold_cost_0_50 = { }
+	remove_permafrost_gold_cost_0_00 = { }
+	remove_permafrost_gold_cost_2_00 = { }
+
+}
+
+remove_permafrost_herd_cost = {
+
+	categories = {
+		tweaks
+	}
+
+	default = remove_permafrost_herd_cost_1_00
+
+	remove_permafrost_herd_cost_1_00 = { }
+	remove_permafrost_herd_cost_0_75 = { }
+	remove_permafrost_herd_cost_0_50 = { }
+	remove_permafrost_herd_cost_0_00 = { }
+	remove_permafrost_herd_cost_2_00 = { }
+
+}
+
+remove_permafrost_prestige_cost = {
+
+	categories = {
+		tweaks
+	}
+
+	default = remove_permafrost_prestige_cost_1_00
+
+	remove_permafrost_prestige_cost_1_00 = { }
+	remove_permafrost_prestige_cost_0_75 = { }
+	remove_permafrost_prestige_cost_0_50 = { }
+	remove_permafrost_prestige_cost_0_00 = { }
+	remove_permafrost_prestige_cost_2_00 = { }
+
+}
+
+allow_remove_all_permafrost_decision = {
+
+	categories = {
+		tweaks
+	}
+
+	default = allow_remove_all_permafrost_decision_yes
+
+	allow_remove_all_permafrost_decision_no = { }
+	allow_remove_all_permafrost_decision_yes = { }
+}
+
+enable_permafrost_adder = {
+
+	categories = {
+		tweaks
+	}
+
+	default = enable_permafrost_adder_yes
+
+	enable_permafrost_adder_yes = { }
+	enable_permafrost_adder_no = { }
+}

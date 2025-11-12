@@ -1,0 +1,22 @@
+﻿l_russian:
+  strawb_remove_permafrost: "Удалить вечную мерзлоту"
+  strawb_remove_permafrost_desc: "Мы больше не можем терпеть этот замерзший ад. Мы потратим всё необходимое, чтобы сделать эту землю зелёной!"
+  strawb_remove_permafrost_selection_tooltip: "Удалить вечную мерзлоту из графства."
+  strawb_remove_permafrost_confirm: "Начать преобразование земли!"
+
+  strawb_remove_permafrost_toast: "Вечная мерзлота удалена из графства!"
+  strawb_remove_permafrost_toast_desc: "Используя передовые и революционные технологии, нам удалось удалить вечную мерзлоту из [text_title.GetName]!"
+
+  strawb_removing_permafrost: "Удаление вечной мерзлоты"
+  strawb_removing_permafrost_desc: "Удаление вечной мерзлоты из этого графства требует огромных людских ресурсов, золота и усилий. Но наше будущее станет ярче."
+
+  strawb_remove_all_permafrost: "Удалить всю вечную мерзлоту"
+  strawb_remove_all_permafrost_desc: "Используя черную магию еврейской каббалы, мы можем убрать всю вечную мерзлоту с лица земли!"
+  strawb_remove_all_permafrost_selection_tooltip: "Удалить вечную мерзлоту по всему миру."
+  strawb_remove_all_permafrost_confirm: "Начать запретный ритуал!"
+
+  strawb_add_permafrost: "Привести вечную мерзлоту"
+  strawb_add_permafrost_desc: "С помощью стратегически размещённых ритуалов мы можем манипулировать погодой, чтобы любое графство превратилось в вечномерзлую землю, сохранив при этом остальные характеристики."
+  strawb_add_permafrost_selection_tooltip: "Добавить вечную мерзлоту в графство."
+  strawb_add_permafrost_toast: "Вечная мерзлота добавлена в [text_title.GetName]"
+  strawb_add_permafrost_toast_desc: "Благодаря различным ритуалам [text_title.GetName] теперь покрыто вечной мерзлотой."

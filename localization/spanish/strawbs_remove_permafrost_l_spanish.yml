@@ -1,0 +1,22 @@
+﻿l_spanish:
+  strawb_remove_permafrost: "Eliminar permafrost"
+  strawb_remove_permafrost_desc: "No podemos soportar más este infierno congelado. ¡Gastaremos lo que sea necesario para hacer que esta tierra sea verde!"
+  strawb_remove_permafrost_selection_tooltip: "Eliminar el permafrost de un condado."
+  strawb_remove_permafrost_confirm: "¡Comenzar la transformación del territorio!"
+
+  strawb_remove_permafrost_toast: "¡Permafrost eliminado de un condado!"
+  strawb_remove_permafrost_toast_desc: "Con técnicas avanzadas y revolucionarias, ¡hemos logrado eliminar el permafrost de [text_title.GetName]!"
+
+  strawb_removing_permafrost: "Eliminando permafrost"
+  strawb_removing_permafrost_desc: "Eliminar el permafrost de este condado requiere una enorme cantidad de mano de obra, oro y esfuerzo. Sin embargo, nuestro futuro aquí será más brillante."
+
+  strawb_remove_all_permafrost: "Eliminar todo el permafrost"
+  strawb_remove_all_permafrost_desc: "¡Mediante la magia negra de la cábala judía, podemos eliminar todo el permafrost del mundo!"
+  strawb_remove_all_permafrost_selection_tooltip: "Eliminar el permafrost de todo el mundo."
+  strawb_remove_all_permafrost_confirm: "¡Comenzar el ritual prohibido!"
+
+  strawb_add_permafrost: "Invocar permafrost"
+  strawb_add_permafrost_desc: "Mediante rituales estratégicamente colocados, podemos manipular el clima para transformar cualquier condado en un paisaje de permafrost, manteniendo sus demás características."
+  strawb_add_permafrost_selection_tooltip: "Añadir permafrost a un condado."
+  strawb_add_permafrost_toast: "Permafrost añadido a [text_title.GetName]"
+  strawb_add_permafrost_toast_desc: "Gracias a diversos rituales, [text_title.GetName] ahora está cubierto de permafrost."

@@ -1,0 +1,22 @@
+﻿l_french:
+  strawb_remove_permafrost: "Retirer le pergélisol"
+  strawb_remove_permafrost_desc: "Nous ne pouvons plus supporter cet enfer gelé. Nous dépenserons tout ce qu'il faut pour rendre cette terre verte!"
+  strawb_remove_permafrost_selection_tooltip: "Retirez le pergélisol d'un comté."
+  strawb_remove_permafrost_confirm: "Commencez la transformation du territoire!"
+
+  strawb_remove_permafrost_toast: "Pergélisol retiré d'un comté!"
+  strawb_remove_permafrost_toast_desc: "Grâce à des techniques avancées et révolutionnaires, nous avons réussi à retirer le pergélisol de [text_title.GetName]!"
+
+  strawb_removing_permafrost: "Retrait du pergélisol en cours"
+  strawb_removing_permafrost_desc: "Retirer le pergélisol de ce comté demande une immense main-d'œuvre, de l'or, et beaucoup d'efforts. Cependant, notre avenir ici sera plus radieux."
+
+  strawb_remove_all_permafrost: "Retirer tout le pergélisol"
+  strawb_remove_all_permafrost_desc: "Grâce à la magie noire de la Kabbale juive, nous pouvons éliminer tout le pergélisol du monde!"
+  strawb_remove_all_permafrost_selection_tooltip: "Retirer le pergélisol du monde entier."
+  strawb_remove_all_permafrost_confirm: "Commencez le rituel interdit!"
+
+  strawb_add_permafrost: "Invoquer le pergélisol"
+  strawb_add_permafrost_desc: "À l'aide de rituels placés stratégiquement, nous pouvons manipuler le climat pour transformer n'importe quel comté en une terre de pergélisol, tout en préservant ses autres caractéristiques."
+  strawb_add_permafrost_selection_tooltip: "Ajouter du pergélisol à un comté."
+  strawb_add_permafrost_toast: "Pergélisol ajouté à [text_title.GetName]"
+  strawb_add_permafrost_toast_desc: "Grâce à divers rituels, [text_title.GetName] est désormais recouvert de pergélisol."

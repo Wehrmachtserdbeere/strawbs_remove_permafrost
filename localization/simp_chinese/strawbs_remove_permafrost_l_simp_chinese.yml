@@ -1,0 +1,22 @@
+﻿l_schinese:
+  strawb_remove_permafrost: "移除永久冻土"
+  strawb_remove_permafrost_desc: "我们无法再忍受这片冰冻地狱。我们将付出一切，让这片土地重新变绿！"
+  strawb_remove_permafrost_selection_tooltip: "从一个县中移除永久冻土。"
+  strawb_remove_permafrost_confirm: "开始土地转化！"
+
+  strawb_remove_permafrost_toast: "永久冻土已从一个县移除！"
+  strawb_remove_permafrost_toast_desc: "通过使用先进和革命性的技术，我们成功地从 [text_title.GetName] 移除了永久冻土！"
+
+  strawb_removing_permafrost: "正在移除永久冻土"
+  strawb_removing_permafrost_desc: "从这个县移除永久冻土需要大量人力、黄金和努力。但我们的未来将更加光明。"
+
+  strawb_remove_all_permafrost: "移除所有永久冻土"
+  strawb_remove_all_permafrost_desc: "利用犹太卡巴拉黑魔法，我们可以清除世界上所有的永久冻土！"
+  strawb_remove_all_permafrost_selection_tooltip: "移除全世界的永久冻土。"
+  strawb_remove_all_permafrost_confirm: "开始禁忌仪式！"
+
+  strawb_add_permafrost: "引入永久冻土"
+  strawb_add_permafrost_desc: "通过战略性安排的仪式，我们可以操纵气候，将任意县份变为永久冻土地区，同时保留其余地貌特征。"
+  strawb_add_permafrost_selection_tooltip: "向一个县添加永久冻土。"
+  strawb_add_permafrost_toast: "[text_title.GetName] 已添加永久冻土"
+  strawb_add_permafrost_toast_desc: "通过各种仪式，[text_title.GetName] 已被永久冻土覆盖。"

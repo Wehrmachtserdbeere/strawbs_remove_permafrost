@@ -1,0 +1,22 @@
+﻿l_korean:
+  strawb_remove_permafrost: "영구동토층 제거"
+  strawb_remove_permafrost_desc: "이 얼어붙은 지옥은 더 이상 견딜 수 없다. 이 땅을 다시 푸르게 만들기 위해 필요한 모든 것을 쏟아붓자!"
+  strawb_remove_permafrost_selection_tooltip: "영구동토층을 하나의 백작령에서 제거합니다."
+  strawb_remove_permafrost_confirm: "토지 변화를 시작하라!"
+
+  strawb_remove_permafrost_toast: "백작령에서 영구동토층이 제거되었습니다!"
+  strawb_remove_permafrost_toast_desc: "혁신적이고 진보된 기술을 통해 [text_title.GetName] 의 영구동토층 제거에 성공했습니다!"
+
+  strawb_removing_permafrost: "영구동토층 제거 중"
+  strawb_removing_permafrost_desc: "이 백작령의 영구동토층을 제거하려면 엄청난 인력, 금, 그리고 노력이 필요합니다. 그러나 우리의 미래는 그만큼 밝아질 것입니다."
+
+  strawb_remove_all_permafrost: "모든 영구동토층 제거"
+  strawb_remove_all_permafrost_desc: "유대교의 카발라 흑마법을 사용하면 우리는 전 세계의 영구동토층을 모두 제거할 수 있습니다!"
+  strawb_remove_all_permafrost_selection_tooltip: "전 세계의 영구동토층을 제거합니다."
+  strawb_remove_all_permafrost_confirm: "금단의 의식을 시작하라!"
+
+  strawb_add_permafrost: "영구동토층 소환"
+  strawb_add_permafrost_desc: "전략적으로 배치된 의식을 통해 기후를 조작하고, 선택한 백작령을 영구동토의 땅으로 바꿀 수 있습니다. 다른 특성은 그대로 유지됩니다."
+  strawb_add_permafrost_selection_tooltip: "백작령에 영구동토층을 추가합니다."
+  strawb_add_permafrost_toast: "[text_title.GetName] 에 영구동토층이 추가되었습니다"
+  strawb_add_permafrost_toast_desc: "다양한 의식을 통해 [text_title.GetName] 은 영구동토층으로 뒤덮였습니다."

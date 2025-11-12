@@ -1,0 +1,22 @@
+﻿l_japanese:
+  strawb_remove_permafrost: "永久凍土を除去する"
+  strawb_remove_permafrost_desc: "この凍てついた地獄にはもう耐えられない。大地を再び緑にするために、必要なすべてを捧げよう！"
+  strawb_remove_permafrost_selection_tooltip: "伯爵領から永久凍土を取り除く。"
+  strawb_remove_permafrost_confirm: "土地の変革を始めよう！"
+
+  strawb_remove_permafrost_toast: "伯爵領の永久凍土を除去しました！"
+  strawb_remove_permafrost_toast_desc: "高度で革新的な技術を用いることで、[text_title.GetName] の永久凍土を取り除くことに成功しました！"
+
+  strawb_removing_permafrost: "永久凍土を除去中"
+  strawb_removing_permafrost_desc: "この伯爵領から永久凍土を取り除くには、莫大な人手と金、そして努力が必要です。しかし、その先に明るい未来があります。"
+
+  strawb_remove_all_permafrost: "すべての永久凍土を除去する"
+  strawb_remove_all_permafrost_desc: "ユダヤのカバラの黒魔術を使えば、世界中の永久凍土をすべて除去することができます!"
+  strawb_remove_all_permafrost_selection_tooltip: "世界中の永久凍土を除去する。"
+  strawb_remove_all_permafrost_confirm: "禁断の儀式を開始せよ！"
+
+  strawb_add_permafrost: "永久凍土を呼び寄せる"
+  strawb_add_permafrost_desc: "戦略的に配置された儀式を通じて、気候を操作し、任意の伯爵領を永久凍土の地に変えることができます。他の土地の特徴は維持されます。"
+  strawb_add_permafrost_selection_tooltip: "伯爵領に永久凍土を追加する。"
+  strawb_add_permafrost_toast: "[text_title.GetName] に永久凍土を追加しました"
+  strawb_add_permafrost_toast_desc: "様々な儀式によって、[text_title.GetName] は永久凍土に覆われました。"
