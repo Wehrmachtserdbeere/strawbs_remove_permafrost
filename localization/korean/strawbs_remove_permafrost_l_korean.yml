@@ -18,6 +18,7 @@
   strawb_add_permafrost: "영구동토층 소환"
   strawb_add_permafrost_desc: "전략적으로 배치된 의식을 통해 기후를 조작하고, 선택한 백작령을 영구동토의 땅으로 바꿀 수 있습니다. 다른 특성은 그대로 유지됩니다."
   strawb_add_permafrost_selection_tooltip: "백작령에 영구동토층을 추가합니다."
+  strawb_add_permafrost_confirm: "금단의 의식을 시작하라!"
   strawb_add_permafrost_toast: "[text_title.GetName] 에 영구동토층이 추가되었습니다"
   strawb_add_permafrost_toast_desc: "다양한 의식을 통해 [text_title.GetName] 은 영구동토층으로 뒤덮였습니다."
 

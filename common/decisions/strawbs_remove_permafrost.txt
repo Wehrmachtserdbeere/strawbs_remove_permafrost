@@ -1,5 +1,4 @@
 ﻿#
-# TODO: Add "max 1 if count, max 2 if duke, max 4 if king, max 8 if emperor, max 16 if hegemon"
 # TODO: Add "(4/8/16) immediate, random permafrost removal" decision for mass-scale quick-defrosting
 #
 

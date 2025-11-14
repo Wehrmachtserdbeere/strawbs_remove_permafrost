@@ -18,6 +18,7 @@
   strawb_add_permafrost: "Permafrost herbeibringen"
   strawb_add_permafrost_desc: "Mithilfe taktisch platzierter Rituale und Rabbiner können wir das Wetter manipulieren, um jede beliebige Grafschaft in eine Permafrostlandschaft zu verwandeln, wobei alle anderen Merkmale des Landes erhalten bleiben."
   strawb_add_permafrost_selection_tooltip: "Permafrost einer Grafschaft zufügen."
+  strawb_add_permafrost_confirm: "Beginnt das gottlose Ritual!"
   strawb_add_permafrost_toast: "Permafrost wurde [text_title.GetName] zugefügt"
   strawb_add_permafrost_toast_desc: "Durch die Anwendung verschiedener Rituale wurde [text_title.GetName] vom Permafrost befallen."
 

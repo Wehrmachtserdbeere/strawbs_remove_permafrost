@@ -18,6 +18,7 @@
   strawb_add_permafrost: "Привести вечную мерзлоту"
   strawb_add_permafrost_desc: "С помощью стратегически размещённых ритуалов мы можем манипулировать погодой, чтобы любое графство превратилось в вечномерзлую землю, сохранив при этом остальные характеристики."
   strawb_add_permafrost_selection_tooltip: "Добавить вечную мерзлоту в графство."
+  strawb_add_permafrost_confirm: "Начать запретный ритуал!"
   strawb_add_permafrost_toast: "Вечная мерзлота добавлена в [text_title.GetName]"
   strawb_add_permafrost_toast_desc: "Благодаря различным ритуалам [text_title.GetName] теперь покрыто вечной мерзлотой."
 

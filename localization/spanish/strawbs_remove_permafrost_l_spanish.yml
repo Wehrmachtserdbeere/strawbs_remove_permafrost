@@ -18,6 +18,7 @@
   strawb_add_permafrost: "Invocar permafrost"
   strawb_add_permafrost_desc: "Mediante rituales estratégicamente colocados, podemos manipular el clima para transformar cualquier condado en un paisaje de permafrost, manteniendo sus demás características."
   strawb_add_permafrost_selection_tooltip: "Añadir permafrost a un condado."
+  strawb_add_permafrost_confirm: "¡Comenzar el ritual prohibido!"
   strawb_add_permafrost_toast: "Permafrost añadido a [text_title.GetName]"
   strawb_add_permafrost_toast_desc: "Gracias a diversos rituales, [text_title.GetName] ahora está cubierto de permafrost."
 

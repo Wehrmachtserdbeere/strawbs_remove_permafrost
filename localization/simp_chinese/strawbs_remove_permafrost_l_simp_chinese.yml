@@ -18,6 +18,7 @@
   strawb_add_permafrost: "引入永久冻土"
   strawb_add_permafrost_desc: "通过战略性安排的仪式，我们可以操纵气候，将任意县份变为永久冻土地区，同时保留其余地貌特征。"
   strawb_add_permafrost_selection_tooltip: "向一个县添加永久冻土。"
+  strawb_add_permafrost_confirm: "开始禁忌仪式！"
   strawb_add_permafrost_toast: "[text_title.GetName] 已添加永久冻土"
   strawb_add_permafrost_toast_desc: "通过各种仪式，[text_title.GetName] 已被永久冻土覆盖。"
 
