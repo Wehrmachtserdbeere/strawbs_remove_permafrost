@@ -18,6 +18,7 @@
   strawb_add_permafrost: "Add Permafrost"
   strawb_add_permafrost_desc: "Using some tactically stationed rituals and rabbis, we can manipulate the weather to turn any county into a permafrosted landscape, while still retaining all the other various features."
   strawb_add_permafrost_selection_tooltip: "Add permafrost to a county."
+  strawb_add_permafrost_confirm: "Commence the unholy ritual!"
   strawb_add_permafrost_toast: "Added Permafrost to [text_title.GetName]"
   strawb_add_permafrost_toast_desc: "Using various rituals, [text_title.GetName] has been affected by permafrost."
 
