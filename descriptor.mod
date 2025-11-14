@@ -8,3 +8,4 @@ tags={
 }
 name="Strawb's Remove Permafrost"
 supported_version="1.18.*"
+remote_file_id="3604681880"
